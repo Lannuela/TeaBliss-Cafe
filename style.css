@@ -647,7 +647,7 @@ nav ul li a:hover::after {
 #faq div {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 #faq h2 {
@@ -702,11 +702,11 @@ nav ul li a:hover::after {
 
 #faq > div > div > p {
   padding: 1rem 1.5rem;
-  margin: 0;
+  margin: 2;
   background: var(--white);
   font-size: 0.95rem;
   color: var(--light-text);
-  line-height: 1.6;
+  line-height: 2;
 }
 
 @media (max-width: 768px) {
