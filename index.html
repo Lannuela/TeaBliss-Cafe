@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeaBliss - Cafe Teh Premium</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div>
+        <a href="index.html">TeaBliss</a>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="keranjang.html">Keranjang (0)</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+      <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Diskom.png" class="d-block" alt="Tea Image 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/diskon.png" class="d-block" alt="Tea Image 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/bundling.png" class="d-block" alt="Tea Image 3" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#homeCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#homeCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <h2>Menu Teh Spesial</h2>
+          <p>Pilihan teh berkualitas tinggi dengan cita rasa yang memukau</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img
+                  src="images/esteh.png"
+                  alt="Ice Tea Original"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="menu-card-content">
+                <h3>Ice Tea Original</h3>
+                <p>Di buat dari daun teh dengan aroma khas yang menenangkan</p>
+                <div class="menu-card-footer">
+                  <span class="price">Rp 10.000</span>
+                  <button class="btn-add-cart">Tambah ke Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img
+                  src="images/Jasmine Tea.jpeg"
+                  alt="Jasmine Tea"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="menu-card-content">
+                <h3>Jasmine Tea</h3>
+                <p>teh harum dengan sentuhan bunga melati, menyegarkan dan menenangkan setiap tegukan</p>
+                <div class="menu-card-footer">
+                  <span class="price">Rp 12.000</span>
+                  <button class="btn-add-cart">Tambah ke Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img
+                  src="images/leci.png"
+                  alt="Lychee Tea"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="menu-card-content">
+                <h3>Lychee Tea</h3>
+                <p>Nikmatnya teh di padukan dengan buah leci yang manis</p>
+                <div class="menu-card-footer">
+                  <span class="price">Rp 12.000</span>
+                  <button class="btn-add-cart">Tambah ke Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img
+                  src="images/lemon.jpeg"
+                  alt="Lemon Tea"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="menu-card-content">
+                <h3>Lemon Tea</h3>
+                <p>Perpaduan teh yang menyegarkan dengan rasa lemon yang segar</p>
+                <div class="menu-card-footer">
+                  <span class="price">Rp 13.000</span>
+                  <button class="btn-add-cart">Tambah ke Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img
+                  src="images/Milktea.jpeg"
+                  alt="Milk Tea"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="menu-card-content">
+                <h3>Milk Tea</h3>
+                <p>Kombinasi sempurna dari segarnya teh dengan kelembutan susu yang nikmat</p>
+                <div class="menu-card-footer">
+                  <span class="price">Rp 11.000</span>
+                  <button class="btn-add-cart">Tambah ke Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img
+                  src="images/matcha.jpeg"
+                  alt="Creamy Matcha Latte"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="menu-card-content">
+                <h3>Creamy Matcha Latte</h3>
+                <p>Matcha premium dengan rasa khas yang dipadukan susu lembut yang creamy</p>
+                <div class="menu-card-footer">
+                  <span class="price">Rp 17.000</span>
+                  <button class="btn-add-cart">Tambah ke Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div>
+        <h2>Tentang TeaBliss</h2>
+        <p>
+          TeaBliss adalah cafe teh premium yang menghadirkan pengalaman minum
+          teh terbaik. Kami berkomitmen untuk menyajikan teh berkualitas tinggi
+          dari berbagai belahan dunia.
+        </p>
+        <p>
+          Dengan suasana yang nyaman dan pelayanan terbaik, TeaBliss menjadi
+          tempat ideal untuk bersantai, bekerja, atau bertemu dengan
+          teman-teman.
+        </p>
+
+        <h3>Keunggulan Kami:</h3>
+        <ul>
+          <li>Teh premium dari seluruh dunia</li>
+          <li>Suasana nyaman dan tenang</li>
+          <li>Barista berpengalaman</li>
+          <li>Wi-Fi gratis</li>
+          <li>Tempat parkir luas</li>
+          <li>Area smoking dan non-smoking</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div>
+        <h2>Galeri</h2>
+        <p>Lihat suasana dan koleksi teh kami</p>
+
+        <div>
+          <img src="https://i.pinimg.com/736x/0f/5b/71/0f5b71b33f64dd8123518d29a96c4dde.jpg" alt="Interior Cafe TeaBliss" width="300" height="200" />
+          <img src="https://i.pinimg.com/736x/7b/9a/78/7b9a7874dff9a45aca58b567cdaba877.jpg" alt="Koleksi Teh Premium" width="300" height="200" />
+          <img src="https://i.pinimg.com/736x/36/b4/62/36b46282e5f86c75b2108d95afc335ed.jpg" alt="Area Outdoor" width="300" height="200" />
+          <img src="images/esteh.png" alt="Teh Earl Grey" width="300" height="200" />
+          <img src="images/Jasmine Tea.jpeg" alt="Teh Jasmine" width="300" height="200" />
+          <img src="images/tembok.jpeg" alt="Suasana Cozy" width="300" height="200" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div>
+        <h2>Layanan Kami</h2>
+
+        <div>
+          <h3>Dine In</h3>
+          <p>
+            Nikmati teh favorit Anda di tempat dengan suasana yang nyaman dan
+            tenang
+          </p>
+        </div>
+
+        <div>
+          <h3>Take Away</h3>
+          <p>
+            Bawa pulang teh premium kami untuk dinikmati di rumah atau kantor
+          </p>
+        </div>
+
+        <div>
+          <h3>Delivery</h3>
+          <p>Pesan online dan kami antar langsung ke lokasi Anda</p>
+        </div>
+
+        <div>
+          <h3>Catering</h3>
+          <p>
+            Layanan catering untuk acara spesial Anda dengan menu teh lengkap
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div>
+        <h2>Hubungi Kami</h2>
+
+        <div>
+          <h3>Alamat</h3>
+          <p>Jl. Sudirman No. 123 Jakarta Pusat, Indonesia 10110</p>
+        </div>
+
+        <div>
+          <h3>Telepon</h3>
+          <p>+62 21 1234 5678</p>
+        </div>
+
+        <div>
+          <h3>Email</h3>
+          <p>info@teabliss.com</p>
+        </div>
+
+        <div>
+          <h3>Jam Buka</h3>
+          <p>Senin - Minggu: 08:00 - 22:00</p>
+        </div>
+
+        <div>
+          <h3>Media Sosial</h3>
+          <p>
+            <a href="#">Instagram: @teabliss_id</a><br />
+            <a href="#">Facebook: TeaBliss Indonesia</a><br />
+            <a href="#">Twitter: @teabliss</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <div>
+        <h2>Testimoni Pelanggan</h2>
+
+        <blockquote>
+          <p>Sarah Van De Choc</p>
+          <footer>
+            "Teh terbaik yang pernah saya coba! Suasananya juga sangat nyaman
+            untuk bekerja."
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>Budiono Siregar</p>
+          <footer>
+            "Earl Grey mereka luar biasa. Sudah jadi pelanggan tetap selama 2
+            tahun."
+          </footer>
+        </blockquote>
+
+        <blockquote>
+          <p>Joko Setya Budi</p>
+          <footer>
+            "Tempat yang sempurna untuk meeting informal dengan klien. Highly
+            recommended!"
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+      <div>
+        <h2>Pertanyaan Umum</h2>
+
+        <div>
+          <h3>Apakah menerima reservasi?</h3>
+          <p>
+            Ya, kami menerima reservasi melalui telepon atau WhatsApp untuk
+            memastikan tempat duduk Anda.
+          </p>
+        </div>
+
+        <div>
+          <h3>Apakah ada menu makanan?</h3>
+          <p>
+            Saat ini kami fokus pada minuman teh, tetapi menyediakan snack
+            ringan seperti kue dan biskuit.
+          </p>
+        </div>
+
+        <div>
+          <h3>Berapa lama delivery?</h3>
+          <p>
+            Untuk area Jakarta, waktu delivery sekitar 30-45 menit tergantung
+            lokasi dan kondisi lalu lintas.
+          </p>
+        </div>
+
+        <div>
+          <h3>Apakah menjual teh dalam kemasan?</h3>
+          <p>
+            Ya, kami menjual teh premium dalam kemasan untuk dibawa pulang
+            dengan harga spesial.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <p>&copy; 2025 TeaBliss. Semua hak dilindungi.</p>
+        <p>Dibuat dengan cinta untuk para pecinta teh</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
